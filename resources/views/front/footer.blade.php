@@ -14,7 +14,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <h3>+255 456 78910 / 11</h3>
+                                        <h3>+254 723 768 593</h3>
                                         <p>Have a question? call us now</p>
                                     </div>
                                 </div>
@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="featured-content">
                                     <div class="featured-desc">
-                                        <h3>info@ribye.co.ug</h3>
+                                        <h3>info@creationltd.co.ke</h3>
                                         <p>Need support? Drop us an email</p>
                                     </div>
                                 </div>
@@ -82,7 +82,7 @@
                                 <div class="footer-logo">
                                     <img width="205" height="65" id="footer-logo-img" class="img-fluid" src="{{asset('theme/images/Ribye-white.png')}}" alt="Ribye Designers">
                                 </div>
-                                <p>Ribye Designers design consultancy firm that brings sensitivity to the design top hotels, offices & homes around the world.</p>
+                                <p>Creation Office Fitouts, Interior Designer Firm that brings sensitivity to the design top hotels, offices & homes around the world.</p>
                                 <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="{{url('/')}}/about-us" tabindex="0">READ MORE<i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
@@ -111,19 +111,19 @@
                             <h3 class="widget-title">Follow Us On</h3>
                             <ul class="social-icons square">
                                 <li>
-                                    <a class="tooltip-bottom" target="_blank" href="https://www.facebook.com/ribyedesigners" data-tooltip="Facebook"><i class="fa fa-facebook"></i>
+                                    <a class="tooltip-bottom" target="_blank" href="https://www.facebook.com/creationltd" data-tooltip="Facebook"><i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter"></i>
+                                    <a class="tooltip-bottom" target="_blank" href="https://twitter.com/creationoffice1" data-tooltip="Twitter"><i class="fa fa-twitter"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="tooltip-bottom" target="_blank" href="https://www.linkedin.com/company/ribye-designers-limited/" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i>
+                                    <a class="tooltip-bottom" target="_blank" href="https://www.linkedin.com/company/creation-office-fitouts/" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="tooltip-bottom" target="_blank" href="https://www.instagram.com/ribyedesigners/" data-tooltip="Instagram"><i class="fa fa-instagram"></i>
+                                    <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Instagram"><i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
                                 <li>
@@ -145,7 +145,7 @@
                 <div class="row copyright">
                     <div class="col-md-12">
                         <div class="">
-                            <span>Copyright © {{date('Y')}} Ribye Designers All Rights Reserved | Powered by &nbsp;<a target="new" href="https://designekta.com" class="ttm-textcolor-skincolor">Designekta Studios</a></span>
+                            <span>Copyright © {{date('Y')}} Creation Office Fitouts All Rights Reserved | Powered by &nbsp;<a target="new" href="https://designekta.com" class="ttm-textcolor-skincolor">Designekta Studios</a></span>
                         </div>
                     </div>
                     <div class="col-md-12">

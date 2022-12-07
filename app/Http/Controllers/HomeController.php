@@ -14,43 +14,38 @@ class HomeController extends Controller
 {
     public function index()
     {
-        SEOMeta::setTitle('Office Fitouts in Uganda | Interior Designer in Kampala | Ribye Designers ');
-        SEOMeta::setDescription('interior Designer in Uganda');
-        SEOMeta::setCanonical(''.url('/').'');
+        SEOMeta::setTitle('Interior Designer in Kenya | Creation Office Fitouts');
+        SEOMeta::setDescription('Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring');
+        SEOMeta::setCanonical(''.url('/').'/');
 
-        OpenGraph::setDescription('interior Designer in Uganda');
-        OpenGraph::setTitle('Office Fitouts in Uganda | Interior Designer in Kampala | Ribye Designers ');
-        OpenGraph::setUrl(''.url('/').'');
+        OpenGraph::setDescription('Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring');
+        OpenGraph::setTitle('Interior Designer in Kenya | Creation Office Fitouts');
+        OpenGraph::setUrl(''.url('/').'/');
         OpenGraph::addProperty('type', 'articles');
 
-        TwitterCard::setTitle('Office Fitouts in Uganda | Interior Designer in Kampala | Ribye Designers ');
-        TwitterCard::setSite('@RibyeDesigners');
 
-        JsonLd::setTitle('Office Fitouts in Uganda | Interior Designer in Kampala | Ribye Designers ');
-        JsonLd::setDescription('interior Designer in Uganda');
-        JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+        TwitterCard::setTitle('Interior Designer in Kenya | Creation Office Fitouts');
+        TwitterCard::setSite('@creationoffice1');
         $title= "Ribye Designers LTD";
 
         return view('front.index', compact('title'));
     }
     public function center_of_excellences(){
 
-            # code...
-            SEOMeta::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
-            SEOMeta::setDescription('interior Designer in Uganda');
-            SEOMeta::setCanonical(''.url('/').'/center-of-excellence/');
+            SEOMeta::setTitle('Services | Creation Office Fitouts - Best Interior fitting contractor in Nairobi');
+            SEOMeta::setDescription('Interior Design Company in Nairobi - Interior Architecture , Construction, Refurbishment, Partitioning , Ceiling & Floors, Furniture Supplies');
+            SEOMeta::setCanonical(''.url('/').'/center-of-excellence');
 
-            OpenGraph::setDescription('interior Designer in Uganda');
-            OpenGraph::setTitle('Office Fitouts In Uganda In Uganda | Ribye Designers | Interior Designers in kampala');
-            OpenGraph::setUrl(''.url('/').'/center-of-excellence/');
+            OpenGraph::setDescription('Interior Design Company in Nairobi - Interior Architecture , Construction, Refurbishment, Partitioning , Ceiling & Floors, Furniture Supplies');
+            OpenGraph::setTitle('Services | Creation Office Fitouts - Best Interior fitting contractor in Nairobi');
+            OpenGraph::setUrl(''.url('/').'/center-of-excellence');
             OpenGraph::addProperty('type', 'articles');
 
-            TwitterCard::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
-            TwitterCard::setSite('@RibyeDesigners');
 
-            JsonLd::setTitle('Office Fitouts In Uganda | Ribye Designers | Interior Designers in kampala');
-            JsonLd::setDescription('interior Designer in Uganda');
-            JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+            TwitterCard::setTitle('Services | Creation Office Fitouts - Best Interior fitting contractor in Nairobi');
+            TwitterCard::setSite('@creationoffice1');
+
+
             $title= "Center of Excellence";
             $Service = DB::table('services')->get();
             return view('front.center_of_excellences', compact('title','Service'));
@@ -61,19 +56,19 @@ class HomeController extends Controller
         $Service = DB::table('services')->where('slung',$slung)->get();
         foreach ($Service as $key => $value) {
             # code...
-            SEOMeta::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            SEOMeta::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             SEOMeta::setDescription('interior Designer in Uganda');
             SEOMeta::setCanonical(''.url('/').'/center-of-excellence/'.$slung.'');
 
             OpenGraph::setDescription('interior Designer in Uganda');
-            OpenGraph::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            OpenGraph::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             OpenGraph::setUrl(''.url('/').'/center-of-excellence/'.$slung.'');
             OpenGraph::addProperty('type', 'articles');
 
-            TwitterCard::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            TwitterCard::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             TwitterCard::setSite('@RibyeDesigners');
 
-            JsonLd::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            JsonLd::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             JsonLd::setDescription('interior Designer in Uganda');
             JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
             $title= $value->title;
@@ -84,63 +79,55 @@ class HomeController extends Controller
 
     public function folio(){
 
-        SEOMeta::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        SEOMeta::setDescription('interior Designer in Uganda');
-        SEOMeta::setCanonical(''.url('/').'/contact-us');
+        SEOMeta::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
+        SEOMeta::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
+        SEOMeta::setCanonical(''.url('/').'/portfolio');
 
-        OpenGraph::setDescription('interior Designer in Uganda');
-        OpenGraph::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        OpenGraph::setUrl(''.url('/').'/contact-us');
+        OpenGraph::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
+        OpenGraph::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
+        OpenGraph::setUrl(''.url('/').'/portfolio');
         OpenGraph::addProperty('type', 'articles');
 
-        TwitterCard::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        TwitterCard::setSite('@RibyeDesigners');
+        TwitterCard::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
+        TwitterCard::setSite('@creationoffice1');
 
-        JsonLd::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        JsonLd::setDescription('interior Designer in Uganda');
-        JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
+
+
         $title= "Our Portfolio";
         return view('front.folio', compact('title'));
     }
 
     public function portfolio(){
+        SEOMeta::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
+        SEOMeta::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
+        SEOMeta::setCanonical(''.url('/').'/portfolio');
 
-        SEOMeta::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        SEOMeta::setDescription('interior Designer in Uganda');
-        SEOMeta::setCanonical(''.url('/').'/contact-us');
-
-        OpenGraph::setDescription('interior Designer in Uganda');
-        OpenGraph::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        OpenGraph::setUrl(''.url('/').'/contact-us');
+        OpenGraph::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
+        OpenGraph::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
+        OpenGraph::setUrl(''.url('/').'/portfolio');
         OpenGraph::addProperty('type', 'articles');
 
-        TwitterCard::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        TwitterCard::setSite('@RibyeDesigners');
+        TwitterCard::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
+        TwitterCard::setSite('@creationoffice1');
 
-        JsonLd::setTitle('Our Portfolio | Ribye Designers | Interior Designers in kampala');
-        JsonLd::setDescription('interior Designer in Uganda');
-        JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
         $title= "Our Portfolio";
         return view('front.portfolio', compact('title'));
     }
 
     public function contact_us(){
 
-        SEOMeta::setTitle('Contact Us | Ribye Designers | Interior Designers in kampala');
-        SEOMeta::setDescription('interior Designer in Uganda');
-        SEOMeta::setCanonical(''.url('/').'/contact-us');
+        SEOMeta::setTitle('Contact Us | Creation Office Fitouts - Interior Designer in Nairobi');
+        SEOMeta::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
+        SEOMeta::setCanonical(''.url('/').'/contact');
 
-        OpenGraph::setDescription('interior Designer in Uganda');
-        OpenGraph::setTitle('Contact Us | Ribye Designers | Interior Designers in kampala');
-        OpenGraph::setUrl(''.url('/').'/contact-us');
+        OpenGraph::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
+        OpenGraph::setTitle('Contact Us | Creation Office Fitouts - Interior Designer in Nairobi');
+        OpenGraph::setUrl(''.url('/').'/contact');
         OpenGraph::addProperty('type', 'articles');
 
-        TwitterCard::setTitle('Contact Us | Ribye Designers | Interior Designers in kampala');
-        TwitterCard::setSite('@RibyeDesigners');
+        TwitterCard::setTitle('Contact Us | Creation Office Fitouts - Interior Designer in Nairobi');
+        TwitterCard::setSite('@creationoffice1');
 
-        JsonLd::setTitle('Contact Us | Ribye Designers | Interior Designers in kampala');
-        JsonLd::setDescription('interior Designer in Uganda');
-        JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
         $title= "Contact Us";
         return view('front.contact_us', compact('title'));
     }
@@ -234,19 +221,19 @@ class HomeController extends Controller
         $Blog = DB::table('blogs')->where('slung',$slung)->get();
         foreach ($Blog as $key => $value) {
             # code...
-            SEOMeta::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            SEOMeta::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             SEOMeta::setDescription('interior Designer in Uganda');
             SEOMeta::setCanonical(''.url('/').'/blogs/'.$slung.'');
 
             OpenGraph::setDescription('interior Designer in Uganda');
-            OpenGraph::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            OpenGraph::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             OpenGraph::setUrl(''.url('/').'/blogs/'.$slung.'');
             OpenGraph::addProperty('type', 'articles');
 
-            TwitterCard::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            TwitterCard::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             TwitterCard::setSite('@RibyeDesigners');
 
-            JsonLd::setTitle(''.$value->title.' In Uganda | Ribye Designers | Interior Designers in kampala');
+            JsonLd::setTitle(''.$value->title.' Contractor in Kenya | Creation Office Fitouts');
             JsonLd::setDescription('interior Designer in Uganda');
             JsonLd::addImage(''.url('/').'/uploads/Ribye-Original-1.png');
             $title = $value->title;

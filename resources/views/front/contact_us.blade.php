@@ -50,8 +50,8 @@
                                 <h3>Phone Number</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>+255 7 456 7890</p>
-                                <p>+255 7 998 4567</p>
+                                <p> +254 723 768 593</p>
+                                <p> +254 723 768 593</p>
                             </div>
                         </div>
                     </div>
@@ -71,8 +71,8 @@
                                 <h3>Email Address</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>info@ribye.co.ug</p>
-                                <p>hello@ribye.co.ug</p>
+                                <p>info@creationltd.co.ke</p>
+                                <p>henry@creationltd.co.ke</p>
                             </div>
                         </div>
                     </div>
@@ -92,8 +92,9 @@
                                 <h3>Visit Us On</h3>
                             </div>
                             <div class="featured-desc">
-                                <p>Kampala, Uganda</p>
-                                <p>14/A, Miranda Estate, Uganda</p>
+                                <p>Nas Apartments, Laikipia Rd
+                                </p>
+                                <p>Nairobi, Kenya</p>
                             </div>
                         </div>
                     </div>

@@ -47,12 +47,12 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-heade">
-                                <h3 style="color:#32415C">About Ribye Designers</h3>
+                                <h3 style="color:#32415C">About Creation office Fitouts</h3>
                                 <h2 class="title">Inspired Creative and Functional Interiors</h2>
                             </div>
                         </div><!-- section title end -->
                         <p style="color:#32415C;">
-                            Formed in 2020 , Ribye Designers LTD incorporates conceptual thinking, spatial and interior design and graphic design to ensure consistent and coherent branded environments for its clients.
+                            With Over 10 Years of Experience , Creation office Fitouts incorporates conceptual thinking, spatial and interior design and graphic design to ensure consistent and coherent branded environments for its clients.
                             <br><br>
                             These multi-disciplines manifest themselves through their work for restaurant and entertainment design; retail and corporate office design; and single and multi-family residential projects.
                         </p>
@@ -150,7 +150,7 @@
                             </div>
                             <div class="title-desc">
                                 <p>
-                                    From professional office spaces to large retail locations (and everything in between), Ribye Designers LTD is ready to revitalize your company's workspace from concept to completion
+                                    From professional office spaces to large retail locations (and everything in between), Creation Office Fitouts is ready to revitalize your company's workspace from concept to completion
                                 </p>
                             </div>
                         </div><!-- section title end -->

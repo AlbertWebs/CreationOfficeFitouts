@@ -9,16 +9,11 @@
 
 
 
-<title>{{$title}} | Interior Designer | Office Fitouts in Kampala</title>
-<meta name="description" content="Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring">
-<meta name="author" content="https://www.designekta.com/" />
-<link rel="canonical" href="{{url('/')}}"/>
-<meta property="og:title" content="{{$title}} | Interior Designer | Office Fitouts in Kampala" />
-<meta property="og:type" content="articles" />
-<meta property="og:url" content="{{url('/')}}" />
-<meta property="og:image" content="{{url('/')}}/uploads/logo/skylineLogo.png" />
-<meta name="twitter:title" content="{{$title}} | Interior Designer | Office Fitouts in Kampala" />
-<meta name="twitter:site" content="@ribyedesigners" />
+<!-- SEO -->
+{!! SEOMeta::generate() !!}
+{!! OpenGraph::generate() !!}
+{!! Twitter::generate() !!}
+<!-- SEO -->
 
 @include('favicon')
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/bootstrap.min.css')}}"/>

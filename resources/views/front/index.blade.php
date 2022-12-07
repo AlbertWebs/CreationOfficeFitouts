@@ -11,8 +11,8 @@
             <div class="ttm-quickdetails-area">
                 <ul class="top-contact">
                     <li><i class="fa fa-map-marker ttm-textcolor-skincolor"></i>Kampala,Uganda</li>
-                    <li><i class="fa fa-phone ttm-textcolor-skincolor"></i>+255 435 654 789</li>
-                    <li><i class="fa fa-envelope-o ttm-textcolor-skincolor"></i>Email: <a href="mailto:info@ribye.co.ug">info@ribye.co.ug</a></li>
+                    <li><i class="fa fa-phone ttm-textcolor-skincolor"></i>+254 723 768 593</li>
+                    <li><i class="fa fa-envelope-o ttm-textcolor-skincolor"></i>Email: <a href="mailto:info@creationltd.co.ke">info@creationltd.co.ke</a></li>
                 </ul>
             </div>
 
@@ -32,7 +32,7 @@
                         data-frame_1="st:200;sp:500;sR:200;"
                         data-frame_999="o:0;st:w;sR:8300;"
                         style="z-index:9;font-family:Cerebri Sans;text-transform:uppercase;"
-                    >Welcome to Ribye Designers
+                    >Welcome to Creation Office Fitouts
                     </rs-layer>
 
                     <a
@@ -524,7 +524,7 @@
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper res-991-mb-40">
                         {{-- <img width="554" height="603" class="img-fluid" src="{{asset('theme/images/single-img-01.jpg')}}" alt="single_01"> --}}
-                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/banners/Partition.jpg" alt="Ribye Designers">
+                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/banners/Partition.jpg" alt="Creation Office Fitouts">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -532,14 +532,16 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-heade">
-                                <h3 style="color:#32415C">About Ribye Designers</h3>
+                                <h3 style="color:#32415C">About Creation Office Fitouts</h3>
                                 <h2 class="title">Inspired Creative and Functional Interiors</h2>
                             </div>
                         </div><!-- section title end -->
                         <p style="color:#32415C;">
-                            Formed in 2020 , Ribye Designers LTD incorporates conceptual thinking, spatial and interior design and graphic design to ensure consistent and coherent branded environments for its clients.
-                            <br><br>
-                            These multi-disciplines manifest themselves through their work for restaurant and entertainment design; retail and corporate office design; and single and multi-family residential projects.
+                            Creation office Fitouts is the number one interior design firm, in Nairobi, Kenya.<br><br>
+
+                            We are professionals in Interior Design, Construction, Refurbishments, Partitioning, Ceiling and Flooring, Furniture Supply.<br><br>
+
+                            Our team comprises of vibrant, creative, and exemplary interior designers whose sole objective is to deliver quality and excellence to our clients.
                         </p>
                         <div class="pt-0 res-991-pt-0 pb-30 res-991-pb-0">
                             {{-- <div class="row">
@@ -631,7 +633,7 @@
                             </div>
                             <div class="title-desc">
                                 <p>
-                                    From professional office spaces to large retail locations (and everything in between), Ribye Designers LTD is ready to revitalize your company's workspace from concept to completion
+                                    From professional office spaces to large retail locations (and everything in between), Creation Office Fitouts is ready to revitalize your company's workspace from concept to completion
                                 </p>
                             </div>
                         </div><!-- section title end -->
@@ -709,7 +711,7 @@
                                                         <div class="featured-desc">
                                                             {{-- <p>Our people are the core of our business and the force behind our success.</p> --}}
                                                             {{-- <p>We have an open and inclusive culture which sets us apart.</p> --}}
-                                                            <p>From trusted expertise to emerging talent, Ribye Team have the drive to succeed and a genuine approach that delivers exceptional results for our clients and the communities we serve.</p>
+                                                            <p>From trusted expertise to emerging talent, Creation's Team have the drive to succeed and a genuine approach that delivers exceptional results for our clients and the communities we serve.</p>
                                                         </div>
                                                         <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="#about">Read More<i class="fa fa-long-arrow-right"></i></a>
                                                         <i class="ttm-num ti-info"></i>
@@ -777,7 +779,7 @@
                         <div class="section-title">
                             <div class="title-header">
                                 <h3>TESTIMONIALS</h3>
-                                <h2 class="title">What Ribye Designers Clients are saying</h2>
+                                <h2 class="title">What Creation Office Fitouts' Clients are saying</h2>
                             </div>
                         </div><!-- section title end -->
                         <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white mt-20 res-991-mt-0" href="#" tabindex="0">VIEW MORE<i class="fa fa-long-arrow-right"></i></a>
@@ -898,11 +900,11 @@
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-header">
-                                <h3 style="color:#32415C">WHY Ribye Designers</h3>
+                                <h3 style="color:#32415C">WHY Creation Office Fitouts</h3>
                                 <h2 class="title">We Strive To Make a Difference</h2>
                             </div>
                             <div class="title-desc" style="color:#32415C">
-                                <p>Ribye is here to stay and so are our projects.</p>
+                                <p>Creations Office Fitouts is here to stay and so are our projects.</p>
         <p>Our impact is measured not just in the quality of the project delivered but in the longer-term impact on the environment, communities and people.<br /><br />Our work connects communities, builds a better future and transforms and maintains the places where we live, work and relax.</p>
                             </div>
                         </div><!-- section title end -->
@@ -985,7 +987,7 @@
                         <div class="layer-content ttm-bgcolor-white">
                             <div class="col-bg-img-four ttm-bg ttm-col-bgimage-yes text-center border spacing-6">
                                 <div class="ttm-col-wrapper-bg-layer ttm-bg-layer"></div>
-                                <h2 class="font-size-34 mb-10">Ribye Interiors Limited</h2>
+                                <h2 class="font-size-34 mb-10">Creation Office Fitouts</h2>
                                 <p>Do not hesitate to send us a message. We are looking forward to hearing from you.</p>
                                 <div class="d-flex flex-row align-items-center justify-content-center mb-10 mt-10">
                                     <div class="widget_icon">
@@ -994,20 +996,20 @@
                                         </div>
                                     </div>
                                     <div class="widget_content">
-                                        <h3 class="widget_number mb-0"> +255 72 456 7890</h3>
+                                        <h3 class="widget_number mb-0"> +254 723 768 593</h3>
                                     </div>
                                 </div>
                                 <ul class="social-icons square">
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="https://www.facebook.com/ribyedesigners" data-tooltip="Facebook"><i class="fa fa-facebook"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.facebook.com/creationltd" data-tooltip="Facebook"><i class="fa fa-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="#" data-tooltip="Twitter"><i class="fa fa-twitter"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://twitter.com/creationoffice1" data-tooltip="Twitter"><i class="fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="tooltip-bottom" target="_blank" href="https://www.linkedin.com/company/ribye-designers-limited/" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i>
+                                        <a class="tooltip-bottom" target="_blank" href="https://www.linkedin.com/company/creation-office-fitouts/" data-tooltip="LinkedIn"><i class="fa fa-linkedin"></i>
                                         </a>
                                     </li>
                                     <li>

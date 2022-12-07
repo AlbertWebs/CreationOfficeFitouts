@@ -205,7 +205,7 @@
                         </div>
                         <div class="title-desc">
                             <p>
-                                From professional office spaces to large retail locations (and everything in between), Ribye Designers LTD is ready to revitalize your company's workspace from concept to completion
+                                From professional office spaces to large retail locations (and everything in between), Creation Office Fitouts LTD is ready to revitalize your company's workspace from concept to completion
                             </p>
                         </div>
                     </div><!-- section title end -->
