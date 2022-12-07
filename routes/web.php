@@ -24,3 +24,5 @@ Route::get('/copyright', [App\Http\Controllers\HomeController::class, 'copyright
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms_and_conditions'])->name('terms-and-conditions');
 Route::get('/privacy-policy', [App\Http\Controllers\HomeController::class, 'privacy_policy'])->name('privacy-policy');
 Route::get('/blog/{slung}', [App\Http\Controllers\HomeController::class, 'blogs'])->name('blogs');
+Route::post('/submitMessage', [App\Http\Controllers\HomeController::class, 'submitMessage'])->name('submitMessage');
+

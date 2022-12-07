@@ -443,7 +443,8 @@
                         data-frame_1="st:690;sp:500;sR:690;"
                         data-frame_999="o:0;st:w;sR:7810;"
                         style="z-index:23;font-family:Cerebri Sans;"
-                    >10 Years Experience
+                    >
+                    {{-- 10 Years Experience --}}
                     </rs-layer>
 
                     <rs-layer
@@ -470,7 +471,8 @@
                         data-frame_1="st:690;sp:500;sR:690;"
                         data-frame_999="o:0;st:w;sR:7810;"
                         style="z-index:22;font-family:Cerebri Sans;"
-                    >Office Fit-Outs
+                    >
+                    {{-- Office Fit-Outs --}}
                     </rs-layer>
 
                     <rs-layer
@@ -497,7 +499,7 @@
                         data-frame_1="st:690;sp:500;sR:690;"
                         data-frame_999="o:0;st:w;sR:7810;"
                         style="z-index:21;font-family:Cerebri Sans;"
-                    >Interior Design
+                    >Interior Design & Office Fitouts
                     </rs-layer>
 
                 </rs-slide>
@@ -1041,49 +1043,49 @@
                                 </div>
                             </div><!-- section title end -->
                             <div class="padding_top30">
-                                <form id="contact_form" class="contact_form wrap-form clearfix" method="post" novalidate="novalidate" action="#">
+                                <form id="contact_form" class="contact_form wrap-form clearfix" method="post" novalidate="novalidate" action="{{url('/submitMessage')}}">
+                                    @csrf
                                     <div class="row ttm-boxes-spacing-20px">
-                                        <div class="ttm-box-col-wrapper col-md-6">
+                                        <div class="ttm-box-col-wrapper col-md-12">
                                             <label>
                                                 <span class="text-input"><input name="name" type="text" value="" placeholder="Your Name*" required="required"></span>
                                             </label>
                                         </div>
-                                        <div class="ttm-box-col-wrapper col-md-6">
+                                        <input style="display: none" type="text" name="checkmate">
+                                        <div class="ttm-box-col-wrapper col-md-12">
                                             <label>
-                                                <span class="text-input"><input name="address" type="text" value="" placeholder="Your Email*" required="required"></span>
+                                                <span class="text-input"><input name="email" type="email" value="" placeholder="Your Email*" required="required"></span>
                                             </label>
                                         </div>
-                                        <div class="ttm-box-col-wrapper col-md-6">
+                                        <div class="ttm-box-col-wrapper col-md-12">
                                             <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Your Phone*" required="required"></span>
+                                                <span class="text-input"><input name="mobile" type="text" value="" placeholder="Your Phone*" required="required"></span>
                                             </label>
                                         </div>
-                                        <div class="ttm-box-col-wrapper col-md-6">
+                                        <div class="ttm-box-col-wrapper col-md-12">
                                             <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Your Subject*" required="required"></span>
+                                                <span class="text-input"><input name="subject" type="text" value="" placeholder="Your Subject*" required="required"></span>
                                             </label>
                                         </div>
-                                        <div class="ttm-box-col-wrapper col-md-6">
-                                            <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Address*" required="required"></span>
-                                            </label>
-                                        </div>
-                                        <div class="ttm-box-col-wrapper col-md-6">
-                                            <label>
-                                                <span class="text-input"><input name="phone" type="text" value="" placeholder="Zip Code*" required="required"></span>
-                                            </label>
-                                        </div>
+
+
                                         <div class="ttm-box-col-wrapper col-md-12">
                                             <label>
                                                 <span class="text-input"><textarea name="message" cols="20" rows="4" placeholder="Message*" required="required"></textarea></span>
                                             </label>
                                         </div>
+                                        {{--  --}}
+                                        <div class="col-lg-12 col-md-12" id="TheCapcha">
+                                            <div class="g-recaptcha" data-sitekey="6LcdKhQeAAAAAHbljXhOgo9_WHQE7LQnRMe7LgSO" data-callback="correctCaptcha"></div>
+                                            <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+                                        </div>
+                                        {{--  --}}
                                         <div class="ttm-box-col-wrapper col-lg-12">
                                             <p class="cookies">
                                                 <input id="cookies-consent" name="cookies-consent" type="checkbox" value="yes">
                                                 <label for="cookies-consent"> It would be great to hear from you! If you got any questions.</label>
                                             </p>
-                                            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-icon-btn-right ttm-btn-color-skincolor mt-15 w-100 text-center" href="#" tabindex="0">Send Message <i class="ti ti-arrow-right"></i></a>
+                                            <button type="submit" class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-icon-btn-right ttm-btn-color-skincolor mt-15 w-100 text-center" href="#" tabindex="0">Send Message <i class="ti ti-arrow-right"></i></button>
                                         </div>
                                     </div>
                                 </form>

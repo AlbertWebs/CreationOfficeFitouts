@@ -82,6 +82,16 @@
     <script src="{{asset('theme/revolution/js/rs6.min.js')}}"></script>
     <!-- Javascript end-->
 
+    <script>
+        $("form").each(function() {
+            $(this).find(':input[type="submit"]').prop('disabled', true);
+        });
+        function correctCaptcha() {
+            $("form").each(function() {
+                $(this).find(':input[type="submit"]').prop('disabled', false);
+            });
+        }
+    </script>
 
 </body>
 

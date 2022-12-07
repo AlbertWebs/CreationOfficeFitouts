@@ -15,7 +15,7 @@
                         <div class="container">
                             <div class="breadcrumb-wrapper-inner">
                                 <span>
-                                    <a title="Go to Delmont." href="index.html" class="home"><i class="themifyicon ti-home"></i>&nbsp;&nbsp;Home</a>
+                                    <a title="Go to Delmont." href="#" class="home"><i class="themifyicon ti-home"></i>&nbsp;&nbsp;Home</a>
                                 </span>
                                 <span class="ttm-bread-sep">&nbsp; / &nbsp;</span>
                                 <span>Contact Us</span>
@@ -154,31 +154,33 @@
                             </div>
                         </div><!-- section title end -->
                         <div class="padding_top30">
-                            <form id="contact_form" class="contact_form wrap-form clearfix" method="post" novalidate="novalidate" action="#">
+                            <form id="contact_form" class="contact_form wrap-form clearfix" method="post" action="{{url('/submitMessage')}}">
+                                @csrf
                                 <div class="row ttm-boxes-spacing-20px">
                                     <div class="col-md-6">
                                         <label>
-                                            <span class="text-input"><input name="name" type="text" value="" placeholder="First Name..." required="required"></span>
+                                            <span class="text-input"><input name="name" type="text" value="" placeholder="First Name..." required></span>
+                                        </label>
+                                    </div>
+                                    <input style="display: none" type="text" name="checkmate">
+                                    <div class="col-md-6">
+                                        <label>
+                                            <span class="text-input"><input name="email" type="text" value="" placeholder="Email Address..." required></span>
                                         </label>
                                     </div>
                                     <div class="col-md-6">
                                         <label>
-                                            <span class="text-input"><input name="address" type="text" value="" placeholder="Last Name..." required="required"></span>
+                                            <span class="text-input"><input name="mobile" type="text" value="" placeholder="Phone Number..." required></span>
                                         </label>
                                     </div>
                                     <div class="col-md-6">
                                         <label>
-                                            <span class="text-input"><input name="phone" type="text" value="" placeholder="Email Address..." required="required"></span>
-                                        </label>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <label>
-                                            <span class="text-input"><input name="phone" type="text" value="" placeholder="Phone Number..." required="required"></span>
+                                            <span class="text-input"><input name="subject" type="text" value="" placeholder="Subject." required></span>
                                         </label>
                                     </div>
                                     <div class="col-md-12">
                                         <label>
-                                            <span class="text-input"><textarea name="message" cols="50" rows="5" placeholder="Enter Message Here..." required="required"></textarea></span>
+                                            <span class="text-input"><textarea name="message" cols="50" rows="5" placeholder="Enter Message Here..." required></textarea></span>
                                         </label>
                                     </div>
                                     <div class="col-lg-12">
@@ -186,7 +188,13 @@
                                             <input id="cookies-consent" name="cookies-consent" type="checkbox" value="yes">
                                             <label for="cookies-consent"> Save my name, email in this browser for the next time Send message</label>
                                         </p>
-                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mt-15" href="#" tabindex="0">Send Message</a>
+                                             {{--  --}}
+                                        <div class="col-lg-12 col-md-12" id="TheCapcha">
+                                            <div class="g-recaptcha" data-sitekey="6LcdKhQeAAAAAHbljXhOgo9_WHQE7LQnRMe7LgSO" data-callback="correctCaptcha"></div>
+                                            <script type="text/javascript" src="https://www.google.com/recaptcha/api.js?hl=en"></script>
+                                        </div>
+                                        {{--  --}}
+                                        <button type="submit" class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-fill ttm-icon-btn-right ttm-btn-color-skincolor mt-15 w-100 text-center" href="#" tabindex="0">Send Message <i class="ti ti-arrow-right"></i></button>
                                     </div>
                                 </div>
                             </form>
