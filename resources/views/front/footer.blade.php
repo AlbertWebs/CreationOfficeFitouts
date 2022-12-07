@@ -67,12 +67,10 @@
                         <div class="widget widget_nav_menu clearfix">
                            <h3 class="widget-title">Quick Links</h3>
                             <ul id="menu-footer-service-link" class="menu">
-                                <li><a href="{{url('/')}}">Home Page</a></li>
-                                <li><a href="{{url('/')}}/about-us">About Us</a></li>
-                                <li><a href="{{url('/')}}/center-of-excellence">Center Of Excellence</a></li>
-                                <li><a href="{{url('/')}}/portfolio">Our Portfolio</a></li>
-                                <li><a href="#">Blogs & Articles</a></li>
-                                <li><a href="{{url('/')}}/contact-us">Contact Us</a></li>
+                                <?php $Services = DB::table('services')->get(); ?>
+                                @foreach ($Services as $Serv)
+                                <li><a href="{{url('/')}}/center-of-excellence/{{$Serv->slung}}">{{$Serv->title}}</a></li>
+                                @endforeach
                             </ul>
                         </div>
                     </div>
