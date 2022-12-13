@@ -12,7 +12,7 @@
                                 <!-- site-branding -->
                                 <div class="site-branding ">
                                     <a class="home-link" href="{{url('/')}}" title="Ribye Designers" rel="home">
-                                        <img id="logo-img" width="195" height="55" class="img-fluid" src="{{asset('theme/images/Ribye-white.png')}}" alt="logo-img">
+                                        <img id="logo-img" width="195" height="55" class="img-fluid" src="{{asset('theme/images/logos.png')}}" alt="logo-img">
                                     </a>
                                 </div><!-- site-branding end -->
                                 <div class="d-flex flex-row">

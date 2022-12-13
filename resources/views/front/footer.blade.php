@@ -78,7 +78,7 @@
                         <div class="widget widget_text clearfix">
                             <div class="textwidget widget-text text-center ml_10 res-991-ml-0 mr-35 res-991-mr-0">
                                 <div class="footer-logo">
-                                    <img width="205" height="65" id="footer-logo-img" class="img-fluid" src="{{asset('theme/images/Ribye-white.png')}}" alt="Ribye Designers">
+                                    <img width="205" height="65" id="footer-logo-img" class="img-fluid" src="{{asset('theme/images/logos.png')}}" alt="Ribye Designers">
                                 </div>
                                 <p>Creation Office Fitouts, Interior Designer Firm that brings sensitivity to the design top hotels, offices & homes around the world.</p>
                                 <a class="ttm-btn ttm-btn-size-md btn-inline ttm-icon-btn-right ttm-btn-color-skincolor" href="{{url('/')}}/about-us" tabindex="0">READ MORE<i class="fa fa-long-arrow-right"></i></a>

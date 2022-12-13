@@ -26,7 +26,6 @@ class HomeController extends Controller
         OpenGraph::setUrl(''.url('/').'/');
         OpenGraph::addProperty('type', 'articles');
 
-
         TwitterCard::setTitle('Interior Designer in Kenya | Creation Office Fitouts');
         TwitterCard::setSite('@creationoffice1');
         $title= "Ribye Designers LTD";
