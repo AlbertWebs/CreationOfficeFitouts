@@ -796,15 +796,15 @@
                                 <div class="testimonials style1">
                                     <div class="testimonial-avatar">
                                         <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/pexels-lucas-da-miranda-1967902.jpg" alt="testimonial-img">
+                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/female-avatar-icon.png" alt="testimonial-img">
                                         </div>
                                     </div>
                                     <div class="testimonial-content">
                                         <i class="ti-quote-left"></i>
-                                        <blockquote>“ I couldn't believe my eyes when I saw the final layout of the room! they understood perfectly what I wanted in my room and brought my vision.”</blockquote>
+                                        <blockquote>“ I had the pleasure of working with Creation Office Fitouts on a recent interior design project. They were amazing to work with! Their attention to detail and creative ideas made the project a success. They were also very accommodating and willing to work with us to make sure the design met our needs. I highly recommend Creation Office Fitouts for any interior design project!”</blockquote>
                                         <div class="testimonial-caption">
-                                            <h3>Sofia Kanyamozi</h3>
-                                            <label>Co-manager associated</label>
+                                            <h3>Joyce Muthoni</h3>
+                                            <label>Client</label>
                                         </div>
                                     </div>
                                 </div><!--testimonials end-->
@@ -814,15 +814,15 @@
                                 <div class="testimonials style1">
                                     <div class="testimonial-avatar">
                                         <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/pexels-christina-morillo-1181391.jpg" alt="testimonial-img">
+                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/male-avatar.jpg" alt="testimonial-img">
                                         </div>
                                     </div>
                                     <div class="testimonial-content">
                                         <i class="ti-quote-left"></i>
-                                        <blockquote>I love everything that put together for my living room! I just bought this house and only had a few items I wanted to keep. I’am able to help me visualize the room”</blockquote>
+                                        <blockquote>"I had the pleasure of working with Creation Office Fitouts on a recent interior fitting project. They were awesome to work with! Their team was professional, efficient, and highly knowledgeable. They provided great advice and suggestions throughout the project, and the end result was exactly what we wanted. I highly recommend Creation Office Fitouts for any interior fitting project.”</blockquote>
                                         <div class="testimonial-caption">
-                                            <h3>Robert Besighe</h3>
-                                            <label>Manger</label>
+                                            <h3>David Xhaqs</h3>
+                                            <label>Client</label>
                                         </div>
                                     </div>
                                 </div><!--testimonials end-->
