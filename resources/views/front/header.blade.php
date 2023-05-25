@@ -24,7 +24,7 @@
                                     <!-- menu -->
                                     <nav class="main-menu menu-mobile" id="menu">
                                         <ul class="menu">
-                                            <li class="active"><a data-scroll href="#home">Home</a></li>
+                                            {{-- <li class="active"><a data-scroll href="#home">Home</a></li> --}}
                                             <li><a data-scroll href="#about">About Us</a></li>
                                             <li><a data-scroll href="#center-of-excellence">Center of Excellence</a></li>
 
