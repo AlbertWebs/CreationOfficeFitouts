@@ -24,13 +24,13 @@
                                     <!-- menu -->
                                     <nav class="main-menu menu-mobile" id="menu">
                                         <ul class="menu">
-                                            <li class="active"><a data-scroll href="#home">Home</a></li>
+                                            {{-- <li class="active"><a data-scroll href="#home">Home</a></li> --}}
                                             <li><a data-scroll href="#about">About Us</a></li>
                                             <li><a data-scroll href="#center-of-excellence">Center of Excellence</a></li>
 
                                             <li><a data-scroll href="#portfolio">Portfolio</a></li>
                                             <li><a data-scroll href="#blog">Blog</a></li>
-                                            <li><a data-scroll href="#contact-us">Contact Us</a></li>
+                                            <li><a data-scroll href="#contact-us">Contact</a></li>
                                         </ul>
                                     </nav><!-- menu end -->
                                     <div class="ttm-widget_header d-flex flex-row justify-content-between">
