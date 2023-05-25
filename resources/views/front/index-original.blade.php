@@ -20,7 +20,7 @@
 
                 <rs-slide data-key="rs-1" data-title="Slide" data-thumb="{{asset('theme/images/slides/slider-mainbg-001.jpg')}}" data-anim="ei:d;eo:d;s:d;r:0;t:grayscalecross;sl:d;">
 
-                    <img src="{{url('/')}}/uploads/slider/2019-02-1414:44:33imageCreationsWest-side_20.jpg" title="slider-bg001" width="1741" height="700" class="rev-slidebg" data-no-retina>
+                    <img src="{{asset('theme/images/slides/slider-mainbg-001.jpg')}}" title="slider-bg001" width="1741" height="700" class="rev-slidebg" data-no-retina>
 
                     <rs-layer
                         id="slider-1-slide-1-layer-0"
@@ -245,7 +245,7 @@
 
                 <rs-slide data-key="rs-4" data-title="Slide" data-thumb="{{asset('theme/images/slides/slider-mainbg-002.jpg')}}" data-anim="ei:d;eo:d;s:d;r:0;t:grayscalecross;sl:d;">
 
-                    <img src="{{url('/')}}/uploads/slider/Seats.jpeg" title="slider-bg002" width="1920" height="830" class="rev-slidebg" data-no-retina>
+                    <img src="{{asset('theme/images/slides/slider-mainbg-002.jpg')}}" title="slider-bg002" width="1920" height="830" class="rev-slidebg" data-no-retina>
 
 
                     <a
@@ -526,7 +526,7 @@
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper res-991-mb-40">
                         {{-- <img width="554" height="603" class="img-fluid" src="{{asset('theme/images/single-img-01.jpg')}}" alt="single_01"> --}}
-                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/slider/olympics.jpeg" alt="Creation Office Fitouts">
+                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/banners/Partition.jpg" alt="Creation Office Fitouts">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -576,7 +576,7 @@
                             </div> --}}
                         </div>
                         <!-- ttm-progress-bar -->
-                        {{-- <div class="pt-15 res-991-pt-40">
+                        <div class="pt-15 res-991-pt-40">
                             <div class="ttm-progress-bar" data-percent="100%">
                                 <div class="progressbar-title">Office Fitouts</div>
                                 <div class="progress-bar-inner">
@@ -603,13 +603,13 @@
                                     </div>
                                 </div>
                             </div><!-- ttm-progress-bar end -->
-                        </div> --}}
+                        </div>
 
                         <div class="d-sm-flex align-items-center mt-60 res-767-mt-0">
                             <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-darkgrey mr-30 res-767-mt-20" href="{{url('/')}}/about-us" tabindex="0">Lear More</a>
-                            {{-- <div class="res-767-mt-20">
+                            <div class="res-767-mt-20">
                                 <img width="186" height="53" class="img-fluid" src="{{asset('theme/images/author-sign.png')}}" alt="sign">
-                            </div> --}}
+                            </div>
                         </div>
 
                     </div>
