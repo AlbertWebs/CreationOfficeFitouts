@@ -42,8 +42,8 @@
                                                 </div>
                                             </div>
                                             <div class="widget_content">
-                                                <span class="widget_title ttm-textcolor-skincolor" style="text-shadow: 1px #ffffff;">HAVE ANY QUESTIONS?</span>
-                                                <h3 class="widget_number">+254 723 768</h3>
+                                                <span class="widget_title ttm-textcolor-skincolor" style="text-shadow: 1px #ffffff;">HAVE QUESTIONS?</span>
+                                                <h3 class="widget_number">+254 723 768 593</h3>
                                             </div>
                                         </div><!-- widget-info end -->
                                     </div>
