@@ -24,7 +24,7 @@
                                     <!-- menu -->
                                     <nav class="main-menu menu-mobile" id="menu">
                                         <ul class="menu">
-                                            {{-- <li class="active"><a data-scroll href="#home">Home</a></li> --}}
+                                            <li class="active"><a data-scroll href="#home">Home</a></li>
                                             <li><a data-scroll href="#about">About Us</a></li>
                                             <li><a data-scroll href="#center-of-excellence">Center of Excellence</a></li>
 
@@ -43,7 +43,7 @@
                                             </div>
                                             <div class="widget_content">
                                                 <span class="widget_title ttm-textcolor-skincolor" style="text-shadow: 1px #ffffff;">HAVE ANY QUESTIONS?</span>
-                                                <h3 class="widget_number">+254 723 768 593</h3>
+                                                <h3 class="widget_number">+254 723 768</h3>
                                             </div>
                                         </div><!-- widget-info end -->
                                     </div>
