@@ -21,17 +21,18 @@ class HomeController extends Controller
         SEOMeta::setDescription('Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring');
         SEOMeta::setCanonical(''.url('/').'/');
 
-        OpenGraph::setDescription('Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring');
+        OpenGraph::setDescription('Best Office Fitouts Contractor in Kenya - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring');
         OpenGraph::setTitle('Interior Designer in Kenya | Creation Office Fitouts');
         OpenGraph::setUrl(''.url('/').'/');
         OpenGraph::addProperty('type', 'articles');
 
         TwitterCard::setTitle('Interior Designer in Kenya | Creation Office Fitouts');
         TwitterCard::setSite('@creationoffice1');
-        $title= "Ribye Designers LTD";
 
+        $title= "Creation Office Fitouts";
         return view('front.index', compact('title'));
     }
+
     public function center_of_excellences(){
 
             SEOMeta::setTitle('Services | Creation Office Fitouts - Best Interior fitting contractor in Nairobi');

@@ -6,11 +6,26 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content=" width=device-width, initial-scale=1, maximum-scale=2" />
 
-<!-- SEO -->
-{!! SEOMeta::generate() !!}
-{!! OpenGraph::generate() !!}
-{!! Twitter::generate() !!}
-<!-- SEO -->
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow"><!-- Google Specific -->
+<meta name="subject" content="Interior Designer in Kenya | Creation Office Fitouts">
+<meta name="rating" content="General">
+
+{{--  --}}
+<meta property="og:url" content="{{url('/')}}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Interior Designer in Kenya | Creation Office Fitouts">
+<meta property="og:image" content="{{url('/')}}/favicon/android-icon-192x192.png">
+<meta property="og:description" content="Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring">
+<meta property="og:site_name" content="Creation Office Fitouts">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@creationoffice1">
+<meta name="twitter:url" content="{{url('/')}}">
+<meta name="twitter:title" content="Interior Designer in Kenya | Creation Office Fitouts">
+<meta name="twitter:description" content="Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring">
+<meta name="twitter:image" content="{{url('/')}}/favicon/android-icon-192x192.png">
+{{--  --}}
 
 @include('favicon')
 <link rel="stylesheet" type="text/css" href="{{asset('theme/css/bootstrap.min.css')}}"/>
