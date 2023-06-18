@@ -11,6 +11,11 @@
 <meta name="subject" content="Interior Designer in Kenya | Creation Office Fitouts">
 <meta name="rating" content="General">
 
+<!-- SEO -->
+<title>Interior Designer in Kenya | Creation Office Fitouts</title>
+<meta name="description" content="Best Office Fitouts Contractor in Kenya  - We are an Interior fitting contractor in Nairobi - We are professionals in Construction, Refurbishments, Ceiling, Flooring">
+<link rel="canonical" href="{{url('/')}}"/>
+
 {{--  --}}
 <meta property="og:url" content="{{url('/')}}">
 <meta property="og:type" content="website">
