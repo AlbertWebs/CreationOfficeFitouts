@@ -97,7 +97,7 @@
       "@type": "ProfessionalService",
       "name": "Creation Office Fitouts",
       "url": "http://creationltd.co.ke/",
-      "logo": "https://creationltd.co.ke/theme/images/logos.png",
+      "logo": "https://creationltd.co.ke/favicon/android-icon-192x192.png",
       "sameAs": [
         "https://www.facebook.com/creationltd",
         "https://www.instagram.com/creation_office_fitout/",
@@ -106,7 +106,7 @@
         "https://www.youtube.com/channel/UCZ17kwbtJbV0pa_oVXd_aEQ"
       ],
       "priceRange": "$$$$",
-      "image": "https://creationltd.co.ke/theme/images/logos.png",
+      "image": "https://creationltd.co.ke/favicon/android-icon-192x192.png",
       "description": "Creation office Fitouts is the number one interior design firm, in Nairobi, Kenya.
 
       We are professionals in Interior Design, Construction, Refurbishments, Partitioning, Ceiling and Flooring, Furniture Supply.
