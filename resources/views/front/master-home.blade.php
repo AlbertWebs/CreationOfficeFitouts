@@ -110,6 +110,44 @@
         }
     </script>
 
+
+<script type='application/ld+json'>
+    {
+      "@context": "http://www.schema.org",
+      "@type": "ProfessionalService",
+      "name": "Creation Office Fitouts",
+      "url": "http://creationltd.co.ke/",
+      "logo": "https://creationltd.co.ke/theme/images/logos.png",
+      "sameAs": [
+        "https://www.facebook.com/creationltd",
+        "https://www.instagram.com/creation_office_fitout/",
+        "https://www.linkedin.com/company/creation-office-fitouts/",
+        "https://twitter.com/creationoffice1",
+        "https://www.youtube.com/channel/UCZ17kwbtJbV0pa_oVXd_aEQ"
+      ],
+      "priceRange": "$$$$",
+      "image": "https://creationltd.co.ke/theme/images/logos.png",
+      "description": "Creation office Fitouts is the number one interior design firm, in Nairobi, Kenya.
+
+      We are professionals in Interior Design, Construction, Refurbishments, Partitioning, Ceiling and Flooring, Furniture Supply.
+
+      Our team comprises of vibrant, creative, and exemplary interior designers whose sole objective is to deliver quality and excellence to our clients.
+
+      ",
+      "address": {
+         "@type": "PostalAddress",
+         "streetAddress": "Nas Apartments, Laikipia Rd, Nairobi",
+         "addressLocality": "Nairobi",
+         "addressRegion": "Kenya",
+         "postalCode": "00100",
+         "addressCountry": "Kenya"
+      },
+       "openingHours": "Mo 01:00-01:00 Tu 01:00-01:00 We 01:00-01:00 Th 01:00-01:00 Fr 01:00-01:00 Sa 01:00-01:00 Su 01:00-01:00",
+       "telephone": "+254723 768593
+       "
+    }
+</script>
+
 </body>
 
 </html>
