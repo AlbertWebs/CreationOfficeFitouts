@@ -8,13 +8,13 @@
 
         <rs-module id="rev_slider_1_1" style="display:none;" data-version="6.1.8">
 
-            <div class="ttm-quickdetails-area">
+            {{-- <div class="ttm-quickdetails-area">
                 <ul class="top-contact">
                     <li><i class="fa fa-map-marker ttm-textcolor-skincolor"></i>Nas Apartments, Laikipia Rd</li>
                     <li><i class="fa fa-phone ttm-textcolor-skincolor"></i>+254 723 768 593</li>
                     <li><i class="fa fa-envelope-o ttm-textcolor-skincolor"></i>Email: <a href="mailto:info@creationltd.co.ke">info@creationltd.co.ke</a></li>
                 </ul>
-            </div>
+            </div> --}}
 
             <rs-slides>
 
