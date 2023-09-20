@@ -11,6 +11,7 @@ use Artesaos\SEOTools\Facades\JsonLd;
 use App\Models\ReplyMessage;
 use App\Models\Message;
 use Illuminate\Support\Facades\Redirect;
+use App\Models\Portfolio;
 use Session;
 
 class HomeController extends Controller
@@ -80,8 +81,9 @@ class HomeController extends Controller
     }
 
 
-    public function folio(){
+    public function folio($id){
 
+        $Portfolio = Portfolio::where('slung',$id)->get();
         SEOMeta::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
         SEOMeta::setDescription('Interior Design Company in Nairobi - We are an interior design firm, based in Kenya.  We always endeavor to uphold the highest standards of art, design, planning, and project management while strictly adhering to the ethics and best practices for the benefit of our clients - Creation Office Fitouts');
         SEOMeta::setCanonical(''.url('/').'/portfolio');
@@ -94,10 +96,8 @@ class HomeController extends Controller
         TwitterCard::setTitle('Projects - Creation Office Fitouts -Interior Designers in Nairobi');
         TwitterCard::setSite('@creationoffice1');
 
-
-
         $title= "Our Portfolio";
-        return view('front.folio', compact('title'));
+        return view('front.folio', compact('title','Portfolio'));
     }
 
     public function portfolio(){
@@ -254,9 +254,6 @@ class HomeController extends Controller
         }
 
     }
-
-
-
 
 
     public function message(Request $request){
