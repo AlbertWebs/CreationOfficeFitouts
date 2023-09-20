@@ -36,7 +36,7 @@
     <section class="ttm-row grid-section clearfix">
         <div class="container">
             <div class="row">
-                <?php $Portfolio = DB::table('portfolios')->get(); ?>
+                <?php $Portfolio = DB::table('portfolios')->orderBy('id','DESC')->get(); ?>
                 @foreach ($Portfolio as $item)
                 <div class="ttm-box-col-wrapper col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-imagebox-portfolio -->

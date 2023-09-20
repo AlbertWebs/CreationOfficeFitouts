@@ -940,7 +940,7 @@
             <!-- row -->
             <div class="row slick_slider mr_450 res-991-mr-0 mt-20 res-991-mt-0" data-slick='{"slidesToShow": 4, "slidesToScroll": 1, "arrows":false, "autoplay":true, "dots":false, "infinite":true, "responsive":[{"breakpoint":1199,"settings": {"slidesToShow": 3}}, {"breakpoint":992,"settings":{"slidesToShow": 2}},{"breakpoint":620,"settings":{"slidesToShow": 1}}]}'>
 
-                <?php $Portfolio = DB::table('portfolios')->orderBy('id','DESC')->get(); ?>
+                <?php $Portfolio = DB::table('portfolios')->limit('4')->orderBy('id','DESC')->get(); ?>
                 @foreach ($Portfolio as $item)
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <!-- featured-imagebox-portfolio -->
