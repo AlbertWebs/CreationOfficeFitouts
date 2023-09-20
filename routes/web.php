@@ -27,7 +27,7 @@ Route::get('/blog/{slung}', [App\Http\Controllers\HomeController::class, 'blogs'
 Route::post('/submitMessage', [App\Http\Controllers\HomeController::class, 'submitMessage'])->name('submitMessage');
 
 
-Auth::routes();
+// Auth::routes();
 
 Route::group(['prefix'=>'admin'], function(){
 
