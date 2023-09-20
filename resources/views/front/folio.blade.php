@@ -221,8 +221,8 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="ttm-nextprev-bottom-nav d-flex justify-content-between">
-                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-icon-btn-right ttm-btn-style-fill ttm-btn-color-grey" href="project-single.html">Previous</a>
-                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-icon-btn-right ttm-btn-style-fill ttm-btn-color-grey" href="project-single.html">Next</a>
+                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-icon-btn-right ttm-btn-style-fill ttm-btn-color-grey" href="#">Previous</a>
+                                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-squar ttm-icon-btn-right ttm-btn-style-fill ttm-btn-color-grey" href="#">Next</a>
                                     </div>
                                 </div>
                             </div><!-- row end-->
