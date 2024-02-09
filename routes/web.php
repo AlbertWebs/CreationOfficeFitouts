@@ -278,6 +278,4 @@ Route::get('/deleteSubscriber/{id}', [App\Http\Controllers\AdminsController::cla
 });
 
 
-Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
