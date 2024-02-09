@@ -29,7 +29,7 @@
                                             <li><a data-scroll href="#center-of-excellence">Center of Excellence</a></li>
 
                                             <li><a data-scroll href="#portfolio">Portfolio</a></li>
-                                            <li><a data-scroll href="#blog">Blog</a></li>
+                                            {{-- <li><a data-scroll href="#blog">Blog</a></li> --}}
                                             <li><a data-scroll href="#contact-us">Contact</a></li>
                                         </ul>
                                     </nav><!-- menu end -->

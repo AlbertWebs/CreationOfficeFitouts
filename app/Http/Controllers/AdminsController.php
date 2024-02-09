@@ -1693,14 +1693,9 @@ public function editPortfolio($id){
 
 
 public function edit_Portfolio(Request $request, $id){
-    $path = 'uploads/portfolio';
+    $path = 'uploads/portfolios';
     if(isset($request->image_one)){
-        $fileSize = $request->file('image_one')->getClientSize();
-            if($fileSize>=1800000){
-            Session::flash('message', "File Exceeded the maximum allowed Size");
-            Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
-            return Redirect::back();
-            }else{
+
 
             $file = $request->file('image_one');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1709,18 +1704,12 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_one = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_one);
-            }
+
     }else{
         $image_one = $request->image_one_cheat;
     }
 
     if(isset($request->image_two)){
-        $fileSize = $request->file('image_two')->getClientSize();
-         if($fileSize>=1800000){
-            Session::flash('message_image_two', "File Exceeded the maximum allowed Size");
-            Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
-
-         }else{
 
             $file = $request->file('image_two');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1729,19 +1718,14 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_two = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_two);
-         }
+
     }else{
         $image_two = $request->image_two_cheat;
     }
 
 
     if(isset($request->image_three)){
-        $fileSize = $request->file('image_three')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message_image_three', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_three');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1750,19 +1734,14 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_three = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_three);
-        }
+
     }else{
         $image_three = $request->image_three_cheat;
     }
     //Additional images
 
     if(isset($request->image_four)){
-        $fileSize = $request->file('image_four')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message_image_four', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_four');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1771,7 +1750,7 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_four = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_four);
-        }
+
     }else{
         $image_four = $request->image_four_cheat;
     }
@@ -1779,12 +1758,7 @@ public function edit_Portfolio(Request $request, $id){
 
 
     if(isset($request->image_five)){
-        $fileSize = $request->file('image_five')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message_image_five', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_five');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1793,18 +1767,13 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_five = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_five);
-        }
+
     }else{
         $image_five = $request->image_five_cheat;
     }
 
     if(isset($request->image_six)){
-        $fileSize = $request->file('image_six')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_six');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1813,18 +1782,12 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_six = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_six);
-        }
+
     }else{
         $image_six = $request->image_six_cheat;
     }
 
     if(isset($request->image_seven)){
-        $fileSize = $request->file('image_seven')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
-
-        }else{
 
             $file = $request->file('image_seven');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1833,18 +1796,12 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_seven = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_seven);
-        }
+
     }else{
         $image_seven = $request->image_seven_cheat;
     }
 
     if(isset($request->image_eight)){
-        $fileSize = $request->file('image_eight')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
-
-        }else{
 
             $file = $request->file('image_eight');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1853,18 +1810,13 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_eight = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_eight);
-        }
+
     }else{
         $image_eight = $request->image_eight_cheat;
     }
 
     if(isset($request->image_nine)){
-        $fileSize = $request->file('image_nine')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_nine');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1873,18 +1825,11 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_nine = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_nine);
-        }
     }else{
         $image_nine = $request->image_nine_cheat;
     }
 
     if(isset($request->image_ten)){
-        $fileSize = $request->file('image_ten')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
-
-        }else{
 
             $file = $request->file('image_ten');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1893,18 +1838,13 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_ten = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_ten);
-        }
+
     }else{
         $image_ten = $request->image_ten_cheat;
     }
 
     if(isset($request->image_eleven)){
-        $fileSize = $request->file('image_eleven')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_eleven');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1913,18 +1853,14 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_eleven = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_eleven);
-        }
+
     }else{
         $image_eleven = $request->image_eleven_cheat;
     }
 
     if(isset($request->image_twelve)){
         $fileSize = $request->file('image_twelve')->getClientSize();
-        if($fileSize>=1800000){
-           Session::flash('message', "File Exceeded the maximum allowed Size");
-           Session::flash('messageError', "An error occured, You may have exceeded the maximum size for an image you uploaded");
 
-        }else{
 
             $file = $request->file('image_twelve');
             $filename = str_replace(' ', '', $file->getClientOriginalName());
@@ -1933,7 +1869,7 @@ public function edit_Portfolio(Request $request, $id){
             $image_main_temp = $new_timestamp.'image'.$filename;
             $image_twelve = str_replace(' ', '',$image_main_temp);
             $file->move($path, $image_twelve);
-        }
+
     }else{
         $image_twelve = $request->image_twelve_cheat;
     }
@@ -1944,9 +1880,9 @@ public function edit_Portfolio(Request $request, $id){
         'title' => $request->name,
         'slung' => Str::slug($request->name),
         'content' => $request->content,
-        'service' => $request->service,
+
         'client' => $request->client,
-        'cat' => $request->cat,
+
         'image_one' =>$image_one,
         'image_two' =>$image_two,
         'image_three' =>$image_three,
@@ -1957,11 +1893,11 @@ public function edit_Portfolio(Request $request, $id){
         'image_eight' =>$image_eight,
         'image_nine' =>$image_nine,
         'image_ten' =>$image_ten,
-        'image_eleven' =>$image_eleven,
-        'image_twelve' =>$image_twelve
+
+
 
     );
-    DB::table('portfolio')->where('id',$id)->update($updateDetails);
+    DB::table('portfolios')->where('id',$id)->update($updateDetails);
     Session::flash('message', "Changes have been saved");
     return Redirect::back();
 }

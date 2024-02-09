@@ -151,6 +151,36 @@
                                     </div>
                                 </div>
                                 @endif
+
+                                 @if($port->image_eight == null OR $port->image_eight == 0)
+
+                                @else
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="ttm_single_image-wrapper mt-15 mb-15 res-991-mt-20">
+                                        <img width="580" height="610" class="img-fluid" src="{{url('/')}}/uploads/portfolios/{{$port->image_eight}}" alt="project-03">
+                                    </div>
+                                </div>
+                                @endif
+
+                                 @if($port->image_nine == null OR $port->image_nine == 0)
+
+                                @else
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="ttm_single_image-wrapper mt-15 mb-15 res-991-mt-20">
+                                        <img width="580" height="610" class="img-fluid" src="{{url('/')}}/uploads/portfolios/{{$port->image_nine}}" alt="project-03">
+                                    </div>
+                                </div>
+                                @endif
+
+                                 @if($port->image_ten == null OR $port->image_ten == 0)
+
+                                @else
+                                <div class="col-lg-4 col-md-6 col-sm-12">
+                                    <div class="ttm_single_image-wrapper mt-15 mb-15 res-991-mt-20">
+                                        <img width="580" height="610" class="img-fluid" src="{{url('/')}}/uploads/portfolios/{{$port->image_ten}}" alt="project-03">
+                                    </div>
+                                </div>
+                                @endif
                             </div>
 
                             <div class="ttm-horizontal_sep width-100 mt-25 mb-25 res-991-mt-15"></div>

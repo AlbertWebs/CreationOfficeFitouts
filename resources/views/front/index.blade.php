@@ -526,7 +526,7 @@
                     <!-- ttm_single_image-wrapper -->
                     <div class="ttm_single_image-wrapper res-991-mb-40">
                         {{-- <img width="554" height="603" class="img-fluid" src="{{asset('theme/images/single-img-01.jpg')}}" alt="single_01"> --}}
-                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/slider/olympics.jpeg" alt="Creation Office Fitouts">
+                        <img width="554" height="603" class="img-fluid" src="{{url('/')}}/uploads/slider/photo_2024-02-09_15-19-34.jpg" alt="Creation Office Fitouts">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12">
@@ -539,11 +539,15 @@
                             </div>
                         </div><!-- section title end -->
                         <p style="color:#32415C;">
-                            Creation office Fitouts is the number one interior design firm, in Nairobi, Kenya.<br><br>
+                            Creation office Fitouts is the number one interior design firm, in Nairobi, Kenya.
 
                             We are professionals in Interior Design, Construction, Refurbishments, Partitioning, Ceiling and Flooring, Furniture Supply.<br><br>
 
-                            Our team comprises of vibrant, creative, and exemplary interior designers whose sole objective is to deliver quality and excellence to our clients.
+                            Our organization boasts a dynamic team of passionate and skilled interior designers dedicated to delivering unparalleled quality and excellence to clients. With a unique blend of creativity and expertise, our designers transform visions into reality, creating spaces that marry aesthetic brilliance with functional practicality.
+                            <br><br>
+                            Creativity is our driving force, with a commitment to pushing design boundaries, setting trends, and embracing challenges for inventive expression. Exemplary work is our standard, seen in meticulous attention to detail, dedication to functionality and sustainability, and a client-centric approach that tailors designs to exceed expectations.<br><br>
+
+                            As we move forward, our commitment to quality, creativity, and excellence invites clients to join a journey where aspirations meet innovation, shaping spaces that leave a lasting mark on the world of interior design.
                         </p>
                         <div class="pt-0 res-991-pt-0 pb-30 res-991-pb-0">
                             {{-- <div class="row">
@@ -1099,7 +1103,7 @@
     <!--broken-section end-->
 
 
-   @include('front.blogs')
+   {{-- @include('front.blogs') --}}
 
 
 </div><!--site-main end-->
