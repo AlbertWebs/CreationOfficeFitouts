@@ -1882,7 +1882,7 @@ public function edit_Portfolio(Request $request, $id){
         'content' => $request->content,
 
         'client' => $request->client,
-
+        'image' =>$image_one,
         'image_one' =>$image_one,
         'image_two' =>$image_two,
         'image_three' =>$image_three,
