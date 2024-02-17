@@ -5,7 +5,7 @@
 
 
 
-<div class="ttm-page-title-row">
+<div class="ttm-page-title-rows" style="background: url('{{url('/')}}/uploads/portfolios/{{$port->image_one}}');  width: 100%;  background-size: cover;   background-position: center;   position: relative;  z-index: 1;">
     <div class="ttm-page-title-row-inner">
         <div class="container">
             <div class="row align-items-center">
@@ -17,7 +17,7 @@
                         <div class="container">
                             <div class="breadcrumb-wrapper-inner">
                                 <span>
-                                    <a title="Go to Delmont." href="index-2.html" class="home"><i class="themifyicon ti-home"></i>&nbsp;&nbsp;Home</a>
+                                    <a title="Go to Delmont." href="{{url('/')}}" class="home"><i class="themifyicon ti-home"></i>&nbsp;&nbsp;Home</a>
                                 </span>
                                 <span class="ttm-bread-sep">&nbsp; / &nbsp;</span>
                                 <span>Interior Work</span>

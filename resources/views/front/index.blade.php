@@ -874,7 +874,7 @@
                         </div><!-- section title end -->
                         <!-- ttm_single_image-wrapper -->
                         <div class="ttm_single_image-wrapper pt-20 res-991-pt-0">
-                            <img width="603" height="270" class="img-fluid" src="{{asset('theme/images/single-img-02.jpg')}}" alt="single_02">
+                            <img width="603" height="270" class="img-fluid" src="{{url('/')}}/uploads/banners/bsnnrts.jpg" alt="single_02">
                         </div>
                     </div>
                 </div>
