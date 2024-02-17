@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Auth\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,8 +18,8 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/about-us', [App\Http\Controllers\HomeController::class, 'company'])->name('company');
 Route::get('/contact-us', [App\Http\Controllers\HomeController::class, 'contact_us'])->name('contact-us');
 Route::get('/center-of-excellence', [App\Http\Controllers\HomeController::class, 'center_of_excellences'])->name('center-of-excellence');
-Route::get('/center-of-excellence/{slung}', [App\Http\Controllers\HomeController::class, 'center_of_excellence'])->name('center-of-excellence');
-Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolio');
+Route::get('/center-of-excellence/{slung}', [App\Http\Controllers\HomeController::class, 'center_of_excellence'])->name('center-of-excellence-single');
+Route::get('/portfolio', [App\Http\Controllers\HomeController::class, 'portfolio'])->name('portfolios');
 Route::get('/portfolio/{single}', [App\Http\Controllers\HomeController::class, 'folio'])->name('portfolio');
 Route::get('/copyright', [App\Http\Controllers\HomeController::class, 'copyright'])->name('copyright');
 Route::get('/terms-and-conditions', [App\Http\Controllers\HomeController::class, 'terms_and_conditions'])->name('terms-and-conditions');
@@ -27,21 +28,18 @@ Route::get('/blog/{slung}', [App\Http\Controllers\HomeController::class, 'blogs'
 Route::post('/submitMessage', [App\Http\Controllers\HomeController::class, 'submitMessage'])->name('submitMessage');
 
 
+// Logins
+Route::get('login', [AuthController::class, 'index'])->name('login');
+Route::post('post-login', [AuthController::class, 'postLogin'])->name('login.post');
+// Route::get('registration', [AuthController::class, 'registration'])->name('register');
+Route::post('post-registration', [AuthController::class, 'postRegistration'])->name('register.post');
+Route::get('dashboard', [AuthController::class, 'dashboard']);
+Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 // Auth::routes();
 
 Route::group(['prefix'=>'admin'], function(){
 
-//Login route
-Route::get('/login','Auth\AdminLoginController@showLoginForm')->name('admin.login');
-Route::post('/login','Auth\AdminLoginController@login')->name('admin.login.submit');
-Route::get('/', [App\Http\Controllers\AdminsController::class,'index'])->name('admin.index');
-Route::get('/logout','Auth\AdminLoginController@logout')->name('admin.logout');
-
-//reset password
-Route::post('/password/email','Auth\AdminForgotPasswordController@sendResetLinkEmail')->name('admin.password.email');
-Route::get('/password/reset','Auth\AdminForgotPasswordController@showLinkRequestForm')->name('admin.password.request');
-Route::post('/password/reset','Auth\AdminResetPasswordController@reset');
-Route::get('/password/reset/{token}','Auth\AdminResetPasswordController@showResetForm')->name('admin.password.reset');
+Route::get('/', [App\Http\Controllers\AdminsController::class,'index']);
 
 //Testimonial
 Route::get('/addTestimonial', [App\Http\Controllers\AdminsController::class,'addTestimonial']);

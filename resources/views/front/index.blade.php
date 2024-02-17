@@ -779,61 +779,19 @@
         <div class="ttm-row-wrapper-bg-layer ttm-bg-layer"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="pt-20 text-left res-575-mb-15 res-991-mb-40">
                         <!-- section title -->
                         <div class="section-title">
                             <div class="title-header">
-                                <h3>TESTIMONIALS</h3>
-                                <h2 class="title">What Creation Office Fitouts' Clients are saying</h2>
+                                <h3>Our Brand Promise</h3>
+                                <h2 class="title">Creativity is our driving force, with a commitment to pushing design boundaries, setting trends, and embracing challenges for inventive expression</h2>
                             </div>
                         </div><!-- section title end -->
-                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white mt-20 res-991-mt-0" href="#" tabindex="0">VIEW MORE<i class="fa fa-long-arrow-right"></i></a>
+                        <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-round ttm-btn-style-border ttm-icon-btn-right ttm-btn-color-white mt-20 res-991-mt-0" href="{{url('/')}}/portfolio" tabindex="0">VIEW Portfolio<i class="fa fa-long-arrow-right"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-8 col-md-12 col-sm-12">
-                    <div class=" mr_380 res-991-mr-0">
-                        <!--row-->
-                        <div class="row slick_slider" data-slick='{"slidesToShow": 2, "slidesToScroll": 1, "arrows":false, "autoplay":false, "infinite":true, "responsive": [{"breakpoint":992,"settings":{"slidesToShow": 2}}, {"breakpoint":750,"settings":{"slidesToShow": 1}}]}'>
-                            <div class="col-lg-6">
-                                <!--testimonials-->
-                                <div class="testimonials style1">
-                                    <div class="testimonial-avatar">
-                                        <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/female-avatar-icon.png" alt="testimonial-img">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <i class="ti-quote-left"></i>
-                                        <blockquote>“ I had the pleasure of working with Creation Office Fitouts on a recent interior design project. They were amazing to work with! Their attention to detail and creative ideas made the project a success. They were also very accommodating and willing to work with us to make sure the design met our needs. I highly recommend Creation Office Fitouts for any interior design project!”</blockquote>
-                                        <div class="testimonial-caption">
-                                            <h3>Joyce Muthoni</h3>
-                                            <label>Client</label>
-                                        </div>
-                                    </div>
-                                </div><!--testimonials end-->
-                            </div>
-                            <div class="col-lg-6">
-                                <!--testimonials-->
-                                <div class="testimonials style1">
-                                    <div class="testimonial-avatar">
-                                        <div class="testimonial-img">
-                                            <img width="150" height="150" class="img-center" src="{{url('/')}}/uploads/testimonials/male-avatar.jpg" alt="testimonial-img">
-                                        </div>
-                                    </div>
-                                    <div class="testimonial-content">
-                                        <i class="ti-quote-left"></i>
-                                        <blockquote>"I had the pleasure of working with Creation Office Fitouts on a recent interior fitting project. They were awesome to work with! Their team was professional, efficient, and highly knowledgeable. They provided great advice and suggestions throughout the project, and the end result was exactly what we wanted. I highly recommend Creation Office Fitouts for any interior fitting project.”</blockquote>
-                                        <div class="testimonial-caption">
-                                            <h3>David Xhaqs</h3>
-                                            <label>Client</label>
-                                        </div>
-                                    </div>
-                                </div><!--testimonials end-->
-                            </div>
-                        </div><!--row end-->
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>

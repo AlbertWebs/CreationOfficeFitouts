@@ -16,49 +16,6 @@
                             </div>
                         </div>
                         @endforeach
-
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-01.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-02.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-03.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-04.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-05.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="client-box">
-                                <div class="client-thumbnail">
-                                    <img width="178" height="70" class="img-fluid" src="{{asset('theme/images/client/client-01.png')}}" alt="image">
-                                </div>
-                            </div>
-                        </div>
                     </div><!-- ttm-client end -->
                 </div>
             </div><!-- row end -->
